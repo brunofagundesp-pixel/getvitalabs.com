@@ -78,24 +78,6 @@ app-root {
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
 }
-.certifications {
-    margin-top: 25px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.cert-logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 80%;
-}
-.cert-logos img {
-    width: 30%;
-    max-width: 180px;
-    display: block;
-}
 .footer {
     width: 100%;
     background: #050404;
@@ -143,12 +125,5 @@ app-root {
     .btn-cta {
         font-size: 18px;
         padding: 15px 30px;
-    }
-    .cert-logos {
-        width: 90%;
-        gap: 10px;
-    }
-    .cert-logos img {
-        width: 30%;
     }
 }
